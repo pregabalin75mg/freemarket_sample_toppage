@@ -3,7 +3,11 @@
 }
 
 .header {
-  height: 5vw;
+  height: 8vw;
   width: 100%;
   background-color: red;
+  &__main {
+    height: 60%;
+    background-color: beige;
+  }
 }
