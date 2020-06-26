@@ -10,5 +10,9 @@
   height: 60%;
   background-color: beige;
   display: flex;
+    &__Logo {
+      height: 40px;
+      width: 140px;
+    }
   }
 }
