@@ -5,10 +5,10 @@
 .header {
   height: 10vh;
   width: 100%;
-  background-color: skyblue;
+  background-color: beige;
+
   &__main {
   height: 60%;
-  background-color: beige;
   display: flex;
     &__Logo {
       margin: 5px 20px;
@@ -34,8 +34,14 @@
   }
   &__navi {
     display: flex;
+    font-size: 14px;
+    padding-top: 3px;
     &__left {
+      justify-content: space-around;
       display: flex;
+      width: 30%;
+      padding-left: 30px;
+      
     }
     &__right {
       display: flex;
