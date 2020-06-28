@@ -49,6 +49,12 @@
       padding-right: 30px;
       &__login {
         margin-right: 30px;
+        text-decoration: none;
+        color: black;
+      }
+      &__new {
+        text-decoration: none;
+        color: black;
       }
     }
   }
