@@ -72,7 +72,12 @@
     position: relative;
     &__subtitle {
       position: absolute;
-      top: 50%;
+      top: 40%;
+      left: 5%;
+      font-size: 60px;
+      color: white;
+      text-shadow: 0 0 10px rgba(0,0,0,0.4);
     }
+
   }
 }
