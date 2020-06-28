@@ -34,5 +34,8 @@
   }
   &__navi {
     display: flex;
+    &__left {
+      display: flex;
+    }
   }
 }
