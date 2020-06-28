@@ -5,7 +5,7 @@
 .header {
   height: 10vh;
   width: 100%;
-  background-color: red;
+  background-color: skyblue;
   &__main {
   height: 60%;
   background-color: beige;
@@ -31,5 +31,8 @@
         border: none;
       }
     }
+  }
+  &__navi {
+    display: flex;
   }
 }
