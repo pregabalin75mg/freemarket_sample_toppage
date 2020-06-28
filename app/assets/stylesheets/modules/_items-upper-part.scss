@@ -6,7 +6,6 @@
   height: 10vh;
   width: 100%;
   background-color: beige;
-
   &__main {
   height: 60%;
   display: flex;
@@ -44,7 +43,13 @@
       
     }
     &__right {
+      justify-content: flex-end;
+      width: 70%;
       display: flex;
+      padding-right: 30px;
+      &__login {
+        margin-right: 30px;
+      }
     }
   }
 }
