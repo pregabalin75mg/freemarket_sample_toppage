@@ -11,8 +11,25 @@
   background-color: beige;
   display: flex;
     &__Logo {
-      height: 40px;
-      width: 140px;
+      margin: 5px 20px;
+      height: 30px;
+      width: 100px;
+    }
+    &__form {
+      height: 100%;
+      width: 100%;
+      padding-top: 10px;
+      &__SearchInput {
+        width: 70%;
+        height: 20px;
+      }
+      &__SearchButton {
+        height: 20px;
+        margin-left: -5px;
+        background-color: skyblue;
+        color: white;
+        border: none;
+      }
     }
   }
 }
