@@ -69,5 +69,10 @@
     background-size: cover;
     background-repeat: none;
     background-position: top center;
+    position: relative;
+    &__subtitle {
+      position: absolute;
+      top: 50%;
+    }
   }
 }
