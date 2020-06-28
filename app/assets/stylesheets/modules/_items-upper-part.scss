@@ -78,6 +78,11 @@
       color: white;
       text-shadow: 0 0 10px rgba(0,0,0,0.4);
     }
-
+    &__text {
+      position: absolute;
+      top: 60%;
+      left: 5%;
+      color: white;
+    }
   }
 }
