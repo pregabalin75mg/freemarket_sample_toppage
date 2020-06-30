@@ -145,7 +145,11 @@
       span {
         color: #3CCACE;
       }
-
+      .description {
+        font-size: 18px;
+        line-height: 1.5;
+        margin: 16px 0 0;
+      }
     }
   }
   &__FurimaIntro::after {
