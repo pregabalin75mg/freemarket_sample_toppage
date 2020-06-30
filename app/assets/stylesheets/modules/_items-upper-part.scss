@@ -122,8 +122,19 @@
       position: relative;
       text-align: center;
       margin: 0 20px;
-
+      .number {
+        position: absolute;
+        display: inline-block;
+        top: 0;
+        left: 0;
+        border-radius: 4%;
+        font-size: 30px;
+        margin: 0 5px 0 0 ;
+        padding: 10px 20px;
+        background-color: #3CCACE;
+        color: #fff;
       }
+
     }
   }
   &__FurimaIntro::after {
