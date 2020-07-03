@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+.wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
 .header {
   padding: 0 60px;
   height: 10vh;
